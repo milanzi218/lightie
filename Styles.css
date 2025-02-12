@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffccdd; /* Soft Pink Background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #ff1493;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ff4da6; /* Pink background */
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+}
+
+.navbar h1 {
+    margin-bottom: 10px; /* Space between heading and links */
+}
+
+.navbar div {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    padding: 50px;
+    background-color: #ffb6c1;
+}
+
+.static-image {
+    width: 100%;
+    max-width: 800px; /* You can adjust this value to fit your design */
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* Light background color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
+}
+
+.static-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures image covers the container without distorting aspect ratio */
+    transition: transform 0.3s ease-in-out;
+}
+
+.static-image img:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovering */
+}
+
+/* Tagline */
+.beauty-tagline {
+    text-align: center;
+    color: #ff1493;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px pink;
+}
+
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #ff99cc;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.fade {
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+/* Services Section */
+#services {
+    background-color: #ff99bb;
+    padding: 50px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    background: white;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Images */
+.service-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.service-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#gallery {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Social Media */
+#social-media {
+    background: #ff6699;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #ff1493;
+    color: white;
+    padding: 15px;
+}
