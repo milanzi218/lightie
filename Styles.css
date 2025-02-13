@@ -10,14 +10,14 @@ body {
 
 /* Header */
 header {
-    background: #ff1493;
+    background: #ff99bb;
     color: white;
     padding: 20px;
 }
 
 /* Navigation Bar */
 .navbar {
-    background-color: #ff4da6; /* Pink background */
+    background-color: #ff99cc; /* Pink background */
     padding: 15px 20px;
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -109,7 +109,7 @@ header {
 
 /* Services Section */
 #services {
-    background-color: #ff99bb;
+    background-color: #ffccdd;
     padding: 50px;
     text-align: center;
 }
@@ -122,7 +122,7 @@ header {
 }
 
 .service-item {
-    background: white;
+    background: #ffccdd;
     padding: 20px;
     width: 320px;
     border-radius: 10px;
@@ -147,7 +147,7 @@ header {
 
 #gallery {
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #ffccdd;
     text-align: center;
 }
 
@@ -172,7 +172,7 @@ header {
 
 /* Social Media */
 #social-media {
-    background: #ff6699;
+    background: #ff99cc;
     padding: 20px;
 }
 
@@ -184,12 +184,12 @@ header {
 
 .social-link i {
     font-size: 24px;
-    color: white;
+    color: #ff99cc;
 }
 
 /* Footer */
 footer {
-    background: #ff1493;
+    background: #ff99bb;
     color: white;
     padding: 15px;
 }
